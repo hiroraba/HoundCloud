@@ -1,0 +1,10 @@
+<%= include 'shared/header' %>
+<div class="page-header">
+<h1>HoundCloud.</h1>
+</div>
+<p class="lead">This is web app using soundcloud and lastfm.</p>
+%= form_for '/get' => (method => 'get') => begin
+  %= text_field 'artist'
+  %= submit_button
+% end
+<%= include 'shared/footer' %>
