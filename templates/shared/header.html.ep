@@ -3,8 +3,9 @@
 <head>
 <title>Bootstrap 101 Template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<%= stylesheet '/css/bootstrap.min.css' %>
-<%= javascript '/css/bootstrap.min.js' %>
+<%= stylesheet '/css/bootstrap/bootstrap.min.css' %>
+<%= javascript '/css/bootstrap/bootstrap.min.js' %>
 </head>
 <body>
+<div id="navbar"></div>
 <div class="container">
