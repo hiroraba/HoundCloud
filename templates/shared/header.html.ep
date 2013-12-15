@@ -4,8 +4,15 @@
 <title>Bootstrap 101 Template</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <%= stylesheet '/css/bootstrap/bootstrap.min.css' %>
+<%= stylesheet '/css/houndcloud.css' %>
 <%= javascript '/css/bootstrap/bootstrap.min.js' %>
 </head>
 <body>
-<div id="navbar"></div>
+<div class="navber navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <h5>Houndcloud makes you fun by nice tracks.</h5>
+    </div>  
+  </div>
+</div>
 <div class="container">
